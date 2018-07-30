@@ -22,12 +22,10 @@ public class PropertyReaderServiceTest {
   public void whenServiceAgeRequested_ShouldReturn12(){
     assertEquals(12,propertyReaderService.getServerAgeFromPropertyFile());
     assertNotEquals(13,propertyReaderService.getServerAgeFromPropertyFile());
-
   }
 
   @Test
   public void whenServiceNameRequested_ShouldReturnFred(){
     assertEquals("fred",propertyReaderService.getServerNameFromPropertyFile());
-
   }
 }
