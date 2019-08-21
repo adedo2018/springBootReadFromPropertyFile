@@ -14,6 +14,7 @@ public class PropertyReader {
   @Autowired
   private PropertyReaderService propertyReaderService;
 
+  //get age from property file
   @GetMapping("/age")
   public int getServerAge(){
     return propertyReaderService.getServerAgeFromPropertyFile();
