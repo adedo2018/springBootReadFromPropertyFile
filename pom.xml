@@ -6,8 +6,8 @@
 
     <groupId>com.example</groupId>
     <artifactId>read-properties</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <version>0.0.1</version>
+    <packaging>war</packaging>
 
     <name>read-properties</name>
     <description>Demo project for Spring Boot</description>
@@ -36,6 +36,16 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+             
+             <dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+		</dependency>
     </dependencies>
 
     <build>
